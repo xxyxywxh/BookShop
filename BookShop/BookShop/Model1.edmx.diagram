@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="04bb025cf66d476b94a2bef488b30d7b" Name="Diagram1">
+        <EntityTypeShape EntityType="BookShop.ActionGroup" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.ActionInfo" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.Articel_Words" Width="1.5" PointX="7.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.BookComment" Width="1.5" PointX="9.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.Books" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.Cart" Width="1.5" PointX="5.25" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.Categories" Width="1.5" PointX="0.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.CheckEmail" Width="1.5" PointX="7.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.Department" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.keyWordsRank" Width="1.5" PointX="9.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.OrderBook" Width="1.5" PointX="5.25" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.Orders" Width="1.5" PointX="3" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.Publishers" Width="1.5" PointX="0.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.R_UserInfo_ActionInfo" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.Role" Width="1.5" PointX="8.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.SearchDetails" Width="1.5" PointX="11.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.Settings" Width="1.5" PointX="11.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.sysdiagrams" Width="1.5" PointX="12.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.SysFun" Width="1.5" PointX="12.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.UserInfo" Width="1.5" PointX="10.5" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.Users" Width="1.5" PointX="3" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.UserStates" Width="1.5" PointX="0.75" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShop.VidoFile" Width="1.5" PointX="7.75" PointY="13.25" IsExpanded="true" />
+        <AssociationConnector Association="BookShop.FK_R_UserInfo_ActionInfoActionInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShop.FK_Book_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShop.FK_Books_Publishers" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShop.FK_Cart_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShop.FK_OrderBook_Book" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShop.FK_Cart_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShop.FK_OrderBook_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShop.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShop.FK_UserInfoR_UserInfo_ActionInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShop.FK_Users_UserStates" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShop.ActionGroupActionInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShop.RoleActionGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShop.RoleActionInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShop.RoleDepartment" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShop.UserInfoRole" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
