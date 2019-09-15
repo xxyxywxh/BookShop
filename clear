@@ -1,0 +1,18 @@
+[1mdiff --git a/BookShop/.vs/BookShop/v15/.suo b/BookShop/.vs/BookShop/v15/.suo[m
+[1mindex 7b92bfc..c6c2e71 100644[m
+Binary files a/BookShop/.vs/BookShop/v15/.suo and b/BookShop/.vs/BookShop/v15/.suo differ
+[1mdiff --git a/BookShop/.vs/BookShop/v15/Server/sqlite3/storage.ide-shm b/BookShop/.vs/BookShop/v15/Server/sqlite3/storage.ide-shm[m
+[1mindex 3b01cad..f3bc9d3 100644[m
+Binary files a/BookShop/.vs/BookShop/v15/Server/sqlite3/storage.ide-shm and b/BookShop/.vs/BookShop/v15/Server/sqlite3/storage.ide-shm differ
+[1mdiff --git a/BookShop/.vs/BookShop/v15/Server/sqlite3/storage.ide-wal b/BookShop/.vs/BookShop/v15/Server/sqlite3/storage.ide-wal[m
+[1mindex 684c78f..0a6052b 100644[m
+Binary files a/BookShop/.vs/BookShop/v15/Server/sqlite3/storage.ide-wal and b/BookShop/.vs/BookShop/v15/Server/sqlite3/storage.ide-wal differ
+[1mdiff --git a/BookShop/BookShop/Views/Home/About.cshtml b/BookShop/BookShop/Views/Home/About.cshtml[m
+[1mindex 4b2d9e8..c90d1da 100644[m
+[1m--- a/BookShop/BookShop/Views/Home/About.cshtml[m
+[1m+++ b/BookShop/BookShop/Views/Home/About.cshtml[m
+[36m@@ -5,3 +5,4 @@[m
+ <h3>@ViewBag.Message</h3>[m
+ [m
+ <p>Use this area to provide additional information.</p>[m
+[32m+[m[32m<h4>TestInfor</h4>[m
